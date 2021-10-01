@@ -1,0 +1,1 @@
+Static site drill using HTML and CSS
