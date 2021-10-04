@@ -1,1 +1,28 @@
-/* use "width: 300px; height: 337px; object-fit: cover; object-position: 100% 0;" to cropped photos */
+/* use "width: 300px; height: 337px; object-fit: cover; object-position: 100% 0;" to crop photos */
+
+
+.navbar {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-items: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    /* border-style: solid; */
+}
+
+.navbar li a:hover {
+    background-color: black;
+    color: white;
+    padding:10%;
+
+}
