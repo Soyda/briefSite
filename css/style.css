@@ -1,6 +1,6 @@
 /* use "width: 300px; height: 337px; object-fit: cover; object-position: 100% 0;" to crop photos */
 
-/* Horizontal Menu
+/* HEADER : Horizontal Menu
 ========================================= */
 .navbar {
     padding: 0px;
@@ -48,6 +48,9 @@
     background: url('img/icons/photo-camera-inversed.png');
 }
 
+/* Footer 
+======================================== */
+
 /* First top image on each page
 ======================================== */
 .band {
@@ -69,4 +72,33 @@
     font-weight: bolder;
     text-shadow: 1px 1px 5px white;
 }
-/* ============================================ */
+
+/* Index Content
+============================================ */
+
+.section1, .section2, .section3, .section4 {
+    display: flex;
+    align-items: center;
+}
+
+.article1, .article2, .article3, .article4 {
+    width: 50%;
+}
+
+.figure1, .figure2, .figure3, .figure4{
+    width: 50%;
+}
+
+.img2, .img3, .img4, .img5 {
+    width: 100%;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.p1, .p2, .p3, .p4 {
+    padding: 5em;
+    height: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.2rem;
+}
