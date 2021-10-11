@@ -1,29 +1,72 @@
 /* use "width: 300px; height: 337px; object-fit: cover; object-position: 100% 0;" to crop photos */
 
-
+/* Horizontal Menu
+========================================= */
 .navbar {
     padding: 0px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    /* justify-content: space-evenly; */
-    align-items: center;
-    justify-items: center;
     font-size:xx-large;
     font-weight: bolder;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+.navbar li {
+    height: 100%;
+    width: 100%;
+}
+
 .navbar li a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     color: black;
-    /* border-style: solid; */
+
 }
 
 .navbar li a:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.753);
     color: white;
-    padding:10%;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.53);
+    transition: 1s;
 
 }
+
+.img-hover {
+    display: none;
+    z-index: 100;
+}
+
+.navbar li a:hover figure {
+    background: url('img/icons/photo-camera-inversed.png');
+}
+
+/* First top image on each page
+======================================== */
+.band {
+    position: relative;
+}
+
+.img1 {
+    width: 100%; 
+    height: 25em; 
+    object-fit: cover;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.bandtexthome {
+    position:absolute;
+    top: 35%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px white;
+}
+/* ============================================ */
