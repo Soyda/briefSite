@@ -139,3 +139,14 @@
 
 /* Gallerie content
 ===================================================== */
+
+.gallerie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.gallerie figure img {
+    width: 100%;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
+}
