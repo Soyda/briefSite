@@ -154,6 +154,53 @@
 /* Tarifs content 
 ==================================================== */
 
+.tarifs1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 5em;
+}
+
+.tarifs1 article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    border-style: solid;
+    width: 90%; 
+    height: 50em; 
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);    
+}
+
+.tarifs1 article figure {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 25%;
+   
+}
+
+.img16, .img17, .img18, .img19 {
+    object-fit: cover;
+    width: 100%;
+    height: 15em; 
+}
+
+.img17 {
+    object-position: 0 20%;     /*better focus position on the image */
+}
+
+.img19 {
+    object-position: 0 55%;     /*better focus position on the image */
+}
+
+.tarifs1 article ul {
+    padding: 0;
+}
+
+
 /* A propos content
 ==================================================== */
 
@@ -177,10 +224,10 @@
     align-self: center;
     font-weight: bolder;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
-figcaption {
+.figure15 figcaption {
     text-align: center;
     font-weight: bolder;
     font-style: italic;
@@ -193,8 +240,7 @@ figcaption {
 }
 
 .papropos2 {
-    font-weight: bolder;
-    font-size: x-large;
+    font-size: 2rem;
 } 
 
 /* Contact content
