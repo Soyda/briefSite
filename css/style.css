@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round', sans-serif;
+ }
+
+
+
 /* HEADER : Horizontal Menu
 ========================================= */
 .navbar {
@@ -8,7 +16,6 @@
     font-size:xx-large;
     font-weight: bolder;
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
 }
 
@@ -318,7 +325,7 @@
 
 input[type=submit], input[type=reset] {
     width: 50%;
-    background-color: gray;
+    background-color: rgb(153, 153, 153);
     color: black;
     font-weight: bolder;
     padding: 14px 20px;
@@ -333,5 +340,42 @@ input[type=submit], input[type=reset] {
   input[type=submit]:hover, input[type=reset]:hover {
     background-color: rgb(53, 53, 53);
     color: white;
- 
+  }
+
+  label {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .infos {
+    display: flex;
+    justify-content: space-evenly;
+      
+  }
+
+  .infos li {
+    display: inline-block;      
+  }
+
+  .infos a {
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .infos a img {
+      width: 2em;
+      height: 2em;
+  }
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
+
+  iframe {
+    width: 953px;
+    height: 424px;
+    border: 0;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
+    margin-bottom: 2em;
   }
