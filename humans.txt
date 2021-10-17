@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+	Steven main web developer
 
 # THANKS
 
-    <name>
+	All my colleagues from Simplon
 
 # TECHNOLOGY COLOPHON
 
