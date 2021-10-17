@@ -178,7 +178,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.5fr 0.5fr 2fr 1fr;
     justify-items: center;
-     width: 85%; 
+    width: 85%; 
     height: 50em; 
     box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);    
 }
@@ -318,9 +318,7 @@
 .fieldset {
     display: flex;
     flex-direction: column;
-    width: 100%;
-
-    
+    width: 100%;  
 }
 
 input[type=submit], input[type=reset] {
@@ -335,47 +333,46 @@ input[type=submit], input[type=reset] {
     cursor: pointer;
     align-self: center;
     flex-direction: row;
-  }
+}
   
-  input[type=submit]:hover, input[type=reset]:hover {
+input[type=submit]:hover, input[type=reset]:hover {
     background-color: rgb(53, 53, 53);
     color: white;
-  }
+}
 
-  label {
+label {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-  }
+}
 
-  .infos {
+.infos {
     display: flex;
     justify-content: space-evenly;
-      
-  }
+}
 
-  .infos li {
+.infos li {
     display: inline-block;      
-  }
+}
 
-  .infos a {
+.infos a {
     text-decoration: none;
     font-size: 1.5em;
-  }
+}
 
-  .infos a img {
-      width: 2em;
-      height: 2em;
-  }
+.infos a img {
+    width: 2em;
+    height: 2em;
+}
 
 .maps {
     display: flex;
     justify-content: center;
 }
 
-  iframe {
+iframe {
     width: 953px;
     height: 424px;
     border: 0;
     box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
     margin-bottom: 2em;
-  }
+}
