@@ -297,3 +297,41 @@
 
 /* Contact content
 ==================================================== */
+
+.form {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 2em;
+    width: 65%;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    
+}
+
+input[type=submit], input[type=reset] {
+    width: 50%;
+    background-color: gray;
+    color: black;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    flex-direction: row;
+  }
+  
+  input[type=submit]:hover, input[type=reset]:hover {
+    background-color: rgb(53, 53, 53);
+    color: white;
+ 
+  }
